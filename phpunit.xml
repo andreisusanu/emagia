@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/6.1/phpunit.xsd"
+        colors="true">
+    <testsuites>
+        <testsuite name="eMAG's hero game">
+            <directory>./test</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+        <exclude>
+            <directory suffix=".php">./config</directory>
+            <directory suffix=".php">./vendor</directory>
+            <directory suffix=".php">./test</directory>
+        </exclude>
+    </filter>
+</phpunit>

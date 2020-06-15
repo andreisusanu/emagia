@@ -1,0 +1,24 @@
+{
+  "name": "andreisusanu/emagia",
+  "description": "eMAG's hero game",
+  "authors": [
+    {
+      "name": "Andrei Susanu",
+      "email": "andrei.susanu@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "php-di/php-di": "^5.4",
+    "geoffroy-aubry/logger": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  }
+}
